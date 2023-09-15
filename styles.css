@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:#333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:black;
+    padding: 10px 20px;
+    height: 80px;
+   
+  }
+  
+  nav .logo img {
+    max-height: 50px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-left: 20px;
+  }
+  
+  .nav-links li:first-child {
+    margin-left: 0;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #ff7a00;
+    font-weight: bold;
+  }
+  
+  .content {
+    padding: 20px;
+  }
+  
+  .about-me, .social-links {
+    margin-bottom: 20px;
+  }
+  
+  footer {
+    color: #ff7a00;
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+
+ /*portfolio project card*/
+ /* Existing styles... */
+
+.project-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .project-card h3 {
+    margin-top: 0;
+  }
+  
+  .project-card p {
+    color: #555;
+  }
+  
+  .project-card a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  .project-card a:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Existing styles... */
+  
